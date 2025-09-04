@@ -3,4 +3,7 @@ project(afl_1 C)
 
 set(CMAKE_C_STANDARD 23)
 
-add_executable(afl_1 main.c)
+add_executable(afl_1 main.c
+        hamming.c
+        hamming.h
+)
